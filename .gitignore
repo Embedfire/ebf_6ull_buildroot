@@ -1,3 +1,6 @@
 dl
 output
 .config
+.config.old
+.config.tmp
+..config.tmp
