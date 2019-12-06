@@ -1,0 +1,4 @@
+config BR2_PACKAGE_EBF_QT_DEMO
+    bool "ebf-qt-demo"
+    help
+      This is a embedfire qt demo.
