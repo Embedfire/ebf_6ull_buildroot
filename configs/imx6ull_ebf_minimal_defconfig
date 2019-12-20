@@ -30,7 +30,6 @@ BR2_LINUX_KERNEL_DEFCONFIG="imx6_v7_ebf"
 BR2_LINUX_KERNEL_DTS_SUPPORT=y
 BR2_LINUX_KERNEL_INTREE_DTS_NAME="imx6ull-14x14-evk imx6ull-14x14-evk-btwifi imx6ull-14x14-evk-emmc imx6ull-14x14-evk-gpmi-weim-43 imx6ull-14x14-evk-emmc-43 imx6ull-14x14-evk-gpmi-weim-hdmi imx6ull-14x14-evk-emmc-hdmi imx6ull-14x14-evk-gpmi-weim-wifi imx6ull-14x14-evk-emmc-wifi imx6ull-14x14-evk-gpmi-weim-cam-dht11 imx6ull-14x14-evk-emmc-cam-dht11"
 BR2_LINUX_KERNEL_DTB_OVERLAY_SUPPORT=y
-BR2_LINUX_KERNEL_INSTALL_TARGET=y
 BR2_PACKAGE_SQUASHFS=y
 BR2_PACKAGE_SQUASHFS_LZMA=y
 # BR2_PACKAGE_EUDEV_ENABLE_HWDB is not set
