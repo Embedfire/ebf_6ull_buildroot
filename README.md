@@ -9,9 +9,22 @@ sudo apt-get install -y sed make binutils build-essential gcc g++ bash patch gzi
 ```
 
 ## 使用野火开发板配置
+### 1.带Qt Demo的配置：
 ```bash
 make imx6ull_ebf_pro_defconfig
 ```
+
+### 2.最小的完整镜像配置：
+```bash
+make imx6ull_ebf_minimal_defconfig
+```
+
+### 3.pico文件系统配置（不编译uboot与内核）：
+```bash
+make imx6ull_ebf_pico_defconfig
+```
+
+> ps: 以上配置选择其中之一即可
 
 ## 自定义配置（可选）
 ```bash
