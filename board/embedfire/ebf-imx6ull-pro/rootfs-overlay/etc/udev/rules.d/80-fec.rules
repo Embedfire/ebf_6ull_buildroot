@@ -1,0 +1,3 @@
+
+ACTION=="add", SUBSYSTEM=="net", DEVPATH=="/devices/platform/soc/2000000.aips-bus/20b4000.ethernet/net/eth?", NAME="eth2"
+ACTION=="add", SUBSYSTEM=="net", DEVPATH=="/devices/platform/soc/2100000.aips-bus/2188000.ethernet/net/eth?", NAME="eth1"
